@@ -2,4 +2,4 @@ Reporte - GitHub Actions + Terraform Cloud + AWS
 
 configuración del Github Actions para terraform 
 
-[<img alt="capt_terraform.yml" width="40px" src="https://drive.google.com/file/d/16vrmjix50CPoyPL5aIUOaI-Cd8jdPYbt/view?usp=sharing" />]
+[<img src="https://drive.google.com/uc?export=view&id=16vrmjix50CPoyPL5aIUOaI-Cd8jdPYbt" style="width: 100px; max-width: 100%; height: auto" title="capt_terraform.yml" />]

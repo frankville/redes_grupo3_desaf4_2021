@@ -1,6 +1,9 @@
 # Reporte - Desafío IV - Redes de Información
 ## GitHub Actions + Terraform Cloud + AWS
 
+### Índice de contenido
+1. [Setup del repositorio](https://github.com/frankville/redes_grupo3_desaf4_2021/tree/readme#setup-del-repositorio)
+2. 
 
 ### Setup del repositorio
 

@@ -2,7 +2,7 @@
 ## GitHub Actions + Terraform Cloud + AWS
 
 ### Índice de contenido
-1. [Setup del repositorio](/README.md#setup-del-repositorio)
+1. [Setup del repositorio](#setup-del-repositorio)
 2. [Configuración de Colaboradores y Secrets](/README.md#configuraci%C3%B3n-de-colaboradores-y-secrets)
 3. [Creación de los archivos terraform necesarios](/README.md#creaci%C3%B3n-de-los-archivos-terraform-necesarios)
 4. [Edición de los archivos terraform segun nuestros requerimientos](/README.md#comenzamos-a-editar-los-terraform-seg%C3%BAn-nuestros-requerimientos)

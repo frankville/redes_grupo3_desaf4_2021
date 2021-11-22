@@ -18,64 +18,64 @@ con tiene un workflow, configurado mediante el archivo terraform.yml, y relacion
 
 Hacemos un Branch y creamos una rama nueva para poder hacer a futuro un pull request 
 
-<img src="https://drive.google.com/uc?export=view&id=1kK2lD7rfCZiVn3ORRssH_5vbOCniT1v8" style="width: 30em; max-width: 100%; height: auto" title="setup_repo" />
+<img src="capturas/1.png" style="width: 30em; max-width: 100%; height: auto" title="setup_repo" />
 
 
 #### Configuración del Github Actions para terraform
 
-<img src="https://drive.google.com/uc?export=view&id=16vrmjix50CPoyPL5aIUOaI-Cd8jdPYbt" style="width: 30em; max-width: 100%; height: auto" title="capt_terraform.yml" />
+<img src="capturas/gh_actions_terraform.png" style="width: 30em; max-width: 100%; height: auto" title="capt_terraform.yml" />
 
 #### Configuración de Colaboradores y Secrets 
 
 ##### Secrets 
 
-<img src="https://drive.google.com/uc?export=view&id=1dVI_n1daaxGx8EpSiSDKnMW2Hy7oiSnD" style="width: 30em; max-width: 100%; height: auto" title="secrets" />
+<img src="capturas/2.png" style="width: 30em; max-width: 100%; height: auto" title="secrets" />
 
 ##### Colaboradores 
 
-<img src="https://drive.google.com/uc?export=view&id=1dCAJ7VjyFGn5otGuiE1NyzeZJhnNnuVV" style="width: 30em; max-width: 100%; height: auto" title="colaboradores" />
+<img src="capturas/3.png" style="width: 30em; max-width: 100%; height: auto" title="colaboradores" />
 
 #### Creación de los archivos terraform necesarios  
 ##### Utilizamos los archivos .tf dados
 
-<img src="https://drive.google.com/uc?export=view&id=1tIL04dcNhjp-3KVy0khPHOXIl8pNxZY_" style="width: 30em; max-width: 100%; height: auto" title="archivos_terraform" />
+<img src="capturas/4.png" style="width: 30em; max-width: 100%; height: auto" title="archivos_terraform" />
 
 #### Cargamos los códigos de terraform brindado por la cátedra 
 ##### instances.tf
 
-<img src="https://drive.google.com/uc?export=view&id=1gZcKHCJ6zsi6WN7pmi9VsZs_p1_K2QCH" style="width: 30em; max-width: 100%; height: auto" title="instances_tf" />
+<img src="capturas/5.png" style="width: 30em; max-width: 100%; height: auto" title="instances_tf" />
 
 ##### networking.tf
 
-<img src="https://drive.google.com/uc?export=view&id=1uPFnlrevCisk7vrIQeBczISKV25CSqCi" style="width: 30em; max-width: 100%; height: auto" title="networking_tf" />
+<img src="capturas/6.png" style="width: 30em; max-width: 100%; height: auto" title="networking_tf" />
 
 ##### output.tf
 
-<img src="https://drive.google.com/uc?export=view&id=1jTh2R8p3fJbaOSxD7F00SzQIB7pPA736" style="width: 30em; max-width: 100%; height: auto" title="output_tf" />
+<img src="capturas/7.png" style="width: 30em; max-width: 100%; height: auto" title="output_tf" />
 
 ##### provider.tf
 
-<img src="https://drive.google.com/uc?export=view&id=12xYJJUaYEAQdkFPgXRdugT6dqJ-Pb0jT" style="width: 30em; max-width: 100%; height: auto" title="provider_tf" />
+<img src="capturas/8.png" style="width: 30em; max-width: 100%; height: auto" title="provider_tf" />
 
 ##### security_groups.tf
 
-<img src="https://drive.google.com/uc?export=view&id=11-KbEShZzAVdq-_xdpVtkDm3Himb-vl1" style="width: 30em; max-width: 100%; height: auto" title="security_groups_tf" />
+<img src="capturas/9.png" style="width: 30em; max-width: 100%; height: auto" title="security_groups_tf" />
 
 ##### user-data.sh
 
-<img src="https://drive.google.com/uc?export=view&id=1UiCyYb4WMa4CvCU6AQRC4H0NoC_qVqv5" style="width: 30em; max-width: 100%; height: auto" title="user-data_sh" />
+<img src="capturas/10.png" style="width: 30em; max-width: 100%; height: auto" title="user-data_sh" />
 
 ##### variables.tf
 
-<img src="https://drive.google.com/uc?export=view&id=1ucQWutb3R9Axaz4rURRa_b-QzSUZDyZI" style="width: 30em; max-width: 100%; height: auto" title="variables_tf" />
+<img src="capturas/11.png" style="width: 30em; max-width: 100%; height: auto" title="variables_tf" />
 
 ##### Creamos una variable para el Internet Gateway Id
 
-<img src="https://drive.google.com/uc?export=view&id=1DxINbRI45i_a0sPEGuAUmj0uyyeUyoXY" style="width: 30em; max-width: 100%; height: auto" title="internet_gateway" />
+<img src="capturas/12.png" style="width: 30em; max-width: 100%; height: auto" title="internet_gateway" />
 
 ##### Creamos una variable para el vpc1_id
 
-<img src="https://drive.google.com/uc?export=view&id=1utuajYyGBPUUE-NssssZWOtZHfxLPmY7" style="width: 30em; max-width: 100%; height: auto" title="vpc1_id" />
+<img src="capturas/13.png" style="width: 30em; max-width: 100%; height: auto" title="vpc1_id" />
 
 #### Comenzamos a editar los terraform según nuestros requerimientos
 ##### VPC dada: 172.16.0.0/16
@@ -83,51 +83,51 @@ Hacemos un Branch y creamos una rama nueva para poder hacer a futuro un pull req
 
 ##### networking.tf 
 
-<img src="https://drive.google.com/uc?export=view&id=1E8GpClfopNHVTOhMwhPl5cJ4pX8oEYGy" style="width: 30em; max-width: 100%; height: auto" title="networking_tf_2" />
+<img src="capturas/14.png" style="width: 30em; max-width: 100%; height: auto" title="networking_tf_2" />
 
 ##### security_groups.tf 
 
-<img src="https://drive.google.com/uc?export=view&id=1cn9VXZ--4LO-EmJyikjTAf44ZbnF5U1N" style="width: 30em; max-width: 100%; height: auto" title="security_groups_tf_2" />
+<img src="capturas/15.png" style="width: 30em; max-width: 100%; height: auto" title="security_groups_tf_2" />
 
 ##### variables.tf 
 
-<img src="https://drive.google.com/uc?export=view&id=1JUqzv6fTz594KbkVwwlbQmg4AZOa13A0" style="width: 30em; max-width: 100%; height: auto" title="variables_tf_2" />
+<img src="capturas/16.png" style="width: 30em; max-width: 100%; height: auto" title="variables_tf_2" />
 
 ##### instances.tf 
 
-<img src="https://drive.google.com/uc?export=view&id=1WCn66wGE8D5teK6FmhlTwF42y5s0yDzA" style="width: 30em; max-width: 100%; height: auto" title="instances_tf_2" />
+<img src="capturas/17.png" style="width: 30em; max-width: 100%; height: auto" title="instances_tf_2" />
 
 ##### output.tf 
 
-<img src="https://drive.google.com/uc?export=view&id=12HgL5uO2mpSdfbgbG4PCrbleVaOxhFHO" style="width: 30em; max-width: 100%; height: auto" title="output_tf_2" />
+<img src="capturas/18.png" style="width: 30em; max-width: 100%; height: auto" title="output_tf_2" />
 
 #### Actualizamos lo modificado con Git
 
 ##### Agregamos cambios con Git add.
 
-<img src="https://drive.google.com/uc?export=view&id=1zbJElMpVJcnjlKScFlTlWkp9hIMPBKuc" style="width: 30em; max-width: 100%; height: auto" title="img_git_add" />
+<img src="capturas/19.png" style="width: 30em; max-width: 100%; height: auto" title="img_git_add" />
 
-##### Hicimos un commit
+##### Hacemos commit
 
-<img src="https://drive.google.com/uc?export=view&id=1OUMQOgIt7sFN5LIRnfAkSsiGWwFYdGiE" style="width: 30em; max-width: 100%; height: auto" title="img_git_commit" />
+<img src="capturas/20.png" style="width: 30em; max-width: 100%; height: auto" title="img_git_commit" />
 
-##### Hicimos un Push
+##### Ejecutamos Push
 
-<img src="https://drive.google.com/uc?export=view&id=1d6THNzn_vISr00fKXFLLi5cDh6D8pgcQ" style="width: 30em; max-width: 100%; height: auto" title="img_git_push" />
+<img src="capturas/21.png" style="width: 30em; max-width: 100%; height: auto" title="img_git_push" />
 
 ##### Creamos el pull request
 
-<img src="https://drive.google.com/uc?export=view&id=1J7cEsCsL2_oxq9UuNwAYmc_XMTrmIfXT" style="width: 30em; max-width: 100%; height: auto" title="pull_request_1" />
+<img src="capturas/22.png" style="width: 30em; max-width: 100%; height: auto" title="pull_request_1" />
 
-<img src="https://drive.google.com/uc?export=view&id=1Zw4awGLyH19vdKuacBXOH18qV3w4A5FP" style="width: 30em; max-width: 100%; height: auto" title="pull_request_2" />
+<img src="capturas/23.png" style="width: 30em; max-width: 100%; height: auto" title="pull_request_2" />
 
 #### Ejecución correcta de los recursos
 
-<img src="https://drive.google.com/uc?export=view&id=1LnYj31bEVu4nFHA3rPns0yApODUksf3d" style="width: 30em; max-width: 100%; height: auto" title="despliegue" />
+<img src="capturas/24.png" style="width: 30em; max-width: 100%; height: auto" title="despliegue" />
 
 ### Diagrama de Infraestructura 
 
-<img src="https://drive.google.com/uc?export=view&id=12M-3xOGAxF7TW32oBQNBCvM3LuGHFuGA" style="width: 30em; max-width: 100%; height: auto" title="img_infra" />
+<img src="capturas/diagrama_de_infraestructura.png" style="width: 30em; max-width: 100%; height: auto" title="img_infra" />
 
 ### Conclusión
 

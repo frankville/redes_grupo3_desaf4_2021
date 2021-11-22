@@ -1,9 +1,15 @@
-# Reporte - Desafío IV - Redes de Información
+# Reporte - Grupo 3 - Desafío IV - Redes de Información
 ## GitHub Actions + Terraform Cloud + AWS
 
 ### Índice de contenido
 1. [Setup del repositorio](https://github.com/frankville/redes_grupo3_desaf4_2021/tree/readme#setup-del-repositorio)
-2. 
+2. [Configuración de Colaboradores y Secrets](https://github.com/frankville/redes_grupo3_desaf4_2021/blob/readme/README.md#configuraci%C3%B3n-de-colaboradores-y-secrets)
+3. [Creación de los archivos terraform necesarios](https://github.com/frankville/redes_grupo3_desaf4_2021/blob/readme/README.md#creaci%C3%B3n-de-los-archivos-terraform-necesarios)
+4. [Edición de los archivos terraform segun nuestros requerimientos](https://github.com/frankville/redes_grupo3_desaf4_2021/blob/readme/README.md#comenzamos-a-editar-los-terraform-seg%C3%BAn-nuestros-requerimientos)
+5. [Actualización con Git](https://github.com/frankville/redes_grupo3_desaf4_2021/blob/readme/README.md#actualizamos-lo-modificado-con-git)
+6. [Ejecución correcta de los Recursos](https://github.com/frankville/redes_grupo3_desaf4_2021/blob/readme/README.md#ejecuci%C3%B3n-correcta-de-los-recursos)
+7. [Diagrama de la Infraestructura](https://github.com/frankville/redes_grupo3_desaf4_2021/blob/readme/README.md#diagrama-de-infraestructura)
+8. [Conclusión](https://github.com/frankville/redes_grupo3_desaf4_2021/blob/readme/README.md#conclusi%C3%B3n )
 
 ### Setup del repositorio
 
@@ -99,15 +105,15 @@ Hacemos un Branch y creamos una rama nueva para poder hacer a futuro un pull req
 
 ##### Agregamos cambios con Git add.
 
-<img src="https://drive.google.com/uc?export=view&id=1zbJElMpVJcnjlKScFlTlWkp9hIMPBKuc" style="width: 30em; max-width: 100%; height: auto" title="git_add" />
+<img src="https://drive.google.com/uc?export=view&id=1zbJElMpVJcnjlKScFlTlWkp9hIMPBKuc" style="width: 30em; max-width: 100%; height: auto" title="img_git_add" />
 
 ##### Hicimos un commit
 
-<img src="https://drive.google.com/uc?export=view&id=1OUMQOgIt7sFN5LIRnfAkSsiGWwFYdGiE" style="width: 30em; max-width: 100%; height: auto" title="git_commit" />
+<img src="https://drive.google.com/uc?export=view&id=1OUMQOgIt7sFN5LIRnfAkSsiGWwFYdGiE" style="width: 30em; max-width: 100%; height: auto" title="img_git_commit" />
 
 ##### Hicimos un Push
 
-<img src="https://drive.google.com/uc?export=view&id=1d6THNzn_vISr00fKXFLLi5cDh6D8pgcQ" style="width: 30em; max-width: 100%; height: auto" title="git_push" />
+<img src="https://drive.google.com/uc?export=view&id=1d6THNzn_vISr00fKXFLLi5cDh6D8pgcQ" style="width: 30em; max-width: 100%; height: auto" title="img_git_push" />
 
 ##### Creamos el pull request
 
@@ -121,15 +127,19 @@ Hacemos un Branch y creamos una rama nueva para poder hacer a futuro un pull req
 
 ### Diagrama de Infraestructura 
 
-<img src="https://drive.google.com/uc?export=view&id=12M-3xOGAxF7TW32oBQNBCvM3LuGHFuGA" style="width: 30em; max-width: 100%; height: auto" title="infra" />
+<img src="https://drive.google.com/uc?export=view&id=12M-3xOGAxF7TW32oBQNBCvM3LuGHFuGA" style="width: 30em; max-width: 100%; height: auto" title="img_infra" />
 
 ### Conclusión
 
-##### En este desafío hemos podido aprender de manera básica algunos elementos de la infraestructura en la nube de AWS que ha enriquecido nuestro conocimiento en cuanto a las posibilidades que nos brinda la IaaS (infrastructure as a Service). También las ventajas de gestionar la infraestructura como código (IaC). 
-##### Al desarrollar los requerimientos afianzamos los conocimientos adquiridos a lo largo de la materia, específicamente en el área de subnetting. 
-##### Para mejorar la disponibilidad, podemos configurar un ELB (Elastic Load Balancer) de tipo ALB(Application Load Balancer), que pueda balancear la carga entre dos o más zonas de disponibilidad, donde en cada zona podríamos tener una configuración similar en cuanto a VPC y Subred, a las cuales tendremos vinculadas instancias de EC2.
-##### En cuanto a la seguridad, una mejora consiste en utilizar un host bastión, al que las personas se conectarían por medio de ssh,  exclusivamente mediante una VPN. De esta manera reducimos drásticamente la superficie de ataque.
-##### Otra mejora puede basarse en limitar la cantidad de conexiones abiertas o generadas en un lapso de tiempo para un host. También limitar las IP que pueden abrir sesiones de SSH o hacer peticiones HTTP.
+<p align="justify">
+En este desafío hemos podido aprender de manera básica algunos elementos de la infraestructura en la nube de AWS que ha enriquecido nuestro conocimiento en cuanto a las posibilidades que nos brinda la IaaS (infrastructure as a Service). También las ventajas de gestionar la infraestructura como código (IaC). 
+Al desarrollar los requerimientos afianzamos los conocimientos adquiridos a lo largo de la materia, específicamente en el área de subnetting. 
+Para mejorar la disponibilidad, podemos configurar un ELB (Elastic Load Balancer) de tipo ALB(Application Load Balancer), que pueda balancear la carga entre dos o más zonas de disponibilidad, donde en cada zona podríamos tener una configuración similar en cuanto a VPC y Subred, a las cuales tendremos vinculadas instancias de EC2.
+En cuanto a la seguridad, una mejora consiste en utilizar un host bastión, al que las personas se conectarían por medio de ssh,  exclusivamente mediante una VPN. De esta manera reducimos drásticamente la superficie de ataque.
+Otra mejora puede basarse en limitar la cantidad de conexiones abiertas o generadas en un lapso de tiempo para un host. También limitar las IP que pueden abrir sesiones de SSH o hacer peticiones HTTP.
+</p>
+
+
 
 
 

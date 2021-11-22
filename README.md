@@ -3,13 +3,13 @@
 
 ### Índice de contenido
 1. [Setup del repositorio](#setup-del-repositorio)
-2. [Configuración de Colaboradores y Secrets](/README.md#configuraci%C3%B3n-de-colaboradores-y-secrets)
-3. [Creación de los archivos terraform necesarios](/README.md#creaci%C3%B3n-de-los-archivos-terraform-necesarios)
-4. [Edición de los archivos terraform segun nuestros requerimientos](/README.md#comenzamos-a-editar-los-terraform-seg%C3%BAn-nuestros-requerimientos)
-5. [Actualización con Git](/README.md#actualizamos-lo-modificado-con-git)
-6. [Ejecución correcta de los Recursos](/README.md#ejecuci%C3%B3n-correcta-de-los-recursos)
-7. [Diagrama de la Infraestructura](/README.md#diagrama-de-infraestructura)
-8. [Conclusión](/README.md#conclusi%C3%B3n )
+2. [Configuración de Colaboradores y Secrets](#configuraci%C3%B3n-de-colaboradores-y-secrets)
+3. [Creación de los archivos terraform necesarios](#creaci%C3%B3n-de-los-archivos-terraform-necesarios)
+4. [Edición de los archivos terraform segun nuestros requerimientos](#comenzamos-a-editar-los-terraform-seg%C3%BAn-nuestros-requerimientos)
+5. [Actualización con Git](#actualizamos-lo-modificado-con-git)
+6. [Ejecución correcta de los Recursos](#ejecuci%C3%B3n-correcta-de-los-recursos)
+7. [Diagrama de la Infraestructura](#diagrama-de-infraestructura)
+8. [Conclusión](#conclusi%C3%B3n )
 
 ### Setup del repositorio
 
